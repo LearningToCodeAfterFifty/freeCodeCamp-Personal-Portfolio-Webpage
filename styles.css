@@ -88,6 +88,7 @@ a {
 /* Projects Section */
 #projects {
   padding-top: 5rem;
+  padding-bottom: 5rem;
   background-color: #3474e6;
 }
 
@@ -118,4 +119,39 @@ a {
 
 .project-tile p {
   padding: 0.5rem;
+}
+
+/* Contact Section */
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: #3474e6;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #3474e6;
+  margin-bottom: 3rem;
+}
+
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-section a {
+  padding: 1rem 2rem;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3474e6;
+}
+
+.contact-section a:hover {
+  color: #fff;
 }
