@@ -155,3 +155,12 @@ a {
 .contact-section a:hover {
   color: #fff;
 }
+
+@media(max-width: 600px) {
+  #navbar .container {
+    justify-content: center;
+  }
+  .project-tile {
+    max-width: 80%;
+  }
+}
